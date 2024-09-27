@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: arcade;
+    src: url("../Fonts/arcade.TTF") format('truetype');
+}
+
+body {
+    background-color: blue;
+}
+
+body h1 {
+    font-family: arcade;
+    color: red;
+    text-align: center;
+}
+
+.topNav {
+    background-color: aliceblue;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+.topNav a {
+    text-decoration: none;
+    font-family: arcade;
+    text-align: center;
+    padding: 14px 16px;
+    color: red;
+    font-size: 14px;
+}
+
+.topNav a:hover {
+    background-color: green;
+    color: blue;
+}
+
+.topNav a.current {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.bootlegHighlight {
+    background-color: brown;
+    width: 750px;
+    height: 750px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bootlegHighlight h1 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+.bio {
+    text-align: center;
+    font-family: arcade;
+    color: black;
+}
+
+.moreInfo {
+ display: block;
+ text-align: center;
+ font-family: arcade;
+ color: black;
+}

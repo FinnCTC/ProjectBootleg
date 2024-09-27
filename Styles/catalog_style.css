@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: arcade;
+    src: url("../Fonts/arcade.TTF") format('truetype');
+}
+
+body {
+    background-color: blue;
+}
+
+body h1 {
+    text-align: center;
+    color: red;
+    font-family: arcade;
+}
+
+.topNav {
+    background-color: aliceblue;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+.topNav a {
+    text-decoration: none;
+    font-family: arcade;
+    text-align: center;
+    padding: 14px 16px;
+    color: red;
+    font-size: 14px;
+}
+
+.topNav a:hover {
+    background-color: green;
+    color: blue;
+}
+
+.topNav a.current {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.grandDad {
+    display: block;
+    overflow: auto;
+    margin-top: 50px;
+    background-color: aliceblue;
+    border: 2px solid red;
+    font-family: arcade;
+    text-align: center;
+    width: fit-content;
+    resize: both;
+    float: left;
+}
+
+.grandInfo {
+    background-color: lightgrey;
+    color: blue;
+    border: 2px solid gold;
+    border-radius: 45px;
+    width: 250px;
+    position: absolute;
+    left: 50px;
+    top: 500px;
+}
+
+.grandInfo_date {
+    text-align: center;
+    color: black;
+}
+
+.grandInfo_publisher {
+    text-align: center;
+    color: black;
+}
+
+.grandInfo_console {
+    text-align: center;
+    color: black;
+}
