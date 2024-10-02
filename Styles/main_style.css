@@ -76,3 +76,9 @@ body h1 {
  font-family: arcade;
  color: black;
 }
+
+.miniDad {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}

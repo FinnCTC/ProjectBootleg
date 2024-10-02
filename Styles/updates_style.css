@@ -10,7 +10,9 @@ body {
 }
 
 body h1 {
+    font-family: arcade;
     color: red;
+    text-align: center;
 }
 
 .topNav {
@@ -47,6 +49,7 @@ body h1 {
 }
 
 .update01 {
+    margin-top: 50px;
     display: block;
     background-color: aliceblue;
     font-family: arcade;
@@ -74,6 +77,39 @@ body h1 {
 }
 
 .update01Text {
+    text-align: center;
+    margin-left: 475px;
+}
+
+.update02 {
+    margin-top: 50px;
+    display: block;
+    background-color: aliceblue;
+    font-family: arcade;
+    text-align: center;
+    overflow: hidden;
+    color: black;
+    height: 225px;
+    width: 250px;
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    outline: red solid 3px;
+}
+
+.update02:hover p {
+    transform: scaleX(0.66);
+    transform-origin: left;
+}
+
+.update02:hover {
+    height: fit-content;
+    width: 100%;
+    transform-origin: right;
+    overflow: auto;
+}
+
+.update02Text {
     text-align: center;
     margin-left: 475px;
 }
